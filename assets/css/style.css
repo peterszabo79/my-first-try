@@ -5,7 +5,7 @@ body {
 
  
 #score {
-    color: #01BBFF;
+    color:black;
     text-align: center;
     font-size: 30px;
 }
@@ -15,7 +15,7 @@ body {
 #question {
     font-family: "monospace";
     font-size: 30px;
-    color: #01BBFF;
+    color:black;
     text-align: center;
 }
 .quiz {
@@ -37,16 +37,21 @@ body {
     padding: 10px 10px;
 }
  
-#btn0:hover, #btn1:hover, #btn2:hover, {
+#btn0:hover, #btn1:hover, #btn2:hover {
     cursor: pointer;
-    background-color: #01BBFF;
+    background-color:yellow;
 }
  
-#btn0:focus, #btn1:focus, #btn2:focus, {
+#btn0:focus, #btn1:focus, #btn2:focus {
     outline: 0;
 }
  
 #progress {
     color: #2b2b2b;
     font-size: 18px;
+}
+h1 {
+    text-align: center;
+    background-color:white;
+    
 }

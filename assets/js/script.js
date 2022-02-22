@@ -77,12 +77,14 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "XHTML","CSS"], "CSS"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "All"], "All")
+    new Question("Who is the lead singer of The Doors?", ["James Hetfield", "John Lennon","James Douglas Morrison"], "James Douglas Morrison"),
+    new Question("How many LP's The Doors made?", ["8", "6", "9"], "9"),
+    new Question("Which is not a Doors LP?", ["Full Circle", "Strange Days","Kill Em All"], "Kill Em All"),
+    new Question("Which one is a Doors song?", ["Warpigs", "Iron Horse", "Peace Frog"], "Peace Frog"),
+    new Question("Where is Jim Morrison gragve?", ["Los Angeles", "Bogota", "Paris"], "Paris"),
+    new Question("When Jim Morrison died?", ["1987", "1971", "1999"], "1971")
 ];
+
  
 // create quiz
 var quiz = new Quiz(questions);
